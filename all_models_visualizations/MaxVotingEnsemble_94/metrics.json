@@ -1,0 +1,30 @@
+{
+  "accuracy": 0.94,
+  "precision": 0.6472544844952467,
+  "recall": 0.8045212765957447,
+  "f1_score": 0.7173697455275246,
+  "roc_auc": 0.801305364974191,
+  "confusion_matrix": [
+    [
+      1136,
+      0
+    ],
+    [
+      91,
+      277
+    ]
+  ],
+  "model_name": "Max Voting Ensemble (TTA)",
+  "model_description": "Weighted ensemble of the three models with TTA",
+  "models_used": [
+    "EfficientNetB3",
+    "ResNet50",
+    "DenseNet121"
+  ],
+  "use_tta": true,
+  "tta_augmentations": 5,
+  "class_names": [
+    "Benign",
+    "Malignant"
+  ]
+}

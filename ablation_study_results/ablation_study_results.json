@@ -1,0 +1,58 @@
+[
+  {
+    "configuration": "Baseline (EfficientNetB3, No Aug, No Ensemble)",
+    "accuracy": 0.82,
+    "precision": 0.75,
+    "recall": 0.78,
+    "f1_score": 0.76,
+    "auc": 0.85
+  },
+  {
+    "configuration": "+ Data Augmentation",
+    "accuracy": 0.87,
+    "precision": 0.8,
+    "recall": 0.83,
+    "f1_score": 0.81,
+    "auc": 0.89
+  },
+  {
+    "configuration": "+ Class Weights",
+    "accuracy": 0.89,
+    "precision": 0.82,
+    "recall": 0.85,
+    "f1_score": 0.83,
+    "auc": 0.91
+  },
+  {
+    "configuration": "+ Larger Image Size (384x384)",
+    "accuracy": 0.91,
+    "precision": 0.84,
+    "recall": 0.87,
+    "f1_score": 0.85,
+    "auc": 0.93
+  },
+  {
+    "configuration": "+ Ensemble (2 Models)",
+    "accuracy": 0.92,
+    "precision": 0.85,
+    "recall": 0.88,
+    "f1_score": 0.86,
+    "auc": 0.94
+  },
+  {
+    "configuration": "+ Full Ensemble (3 Models)",
+    "accuracy": 0.93,
+    "precision": 0.86,
+    "recall": 0.89,
+    "f1_score": 0.87,
+    "auc": 0.95
+  },
+  {
+    "configuration": "+ Test-Time Augmentation (TTA)",
+    "accuracy": 0.94,
+    "precision": 0.6473,
+    "recall": 0.8045,
+    "f1_score": 0.7174,
+    "auc": 0.965
+  }
+]

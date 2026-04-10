@@ -1,0 +1,23 @@
+{
+  "model_name": "EfficientNetB3",
+  "model_path": "ensemble_checkpoints\\EfficientNetB3_frozen_best.keras",
+  "accuracy": 0.19547872340425532,
+  "precision": 0.03821193130375736,
+  "recall": 0.19547872340425532,
+  "f1_score": 0.06392741343809907,
+  "roc_auc": 0.5,
+  "confusion_matrix": [
+    [
+      0,
+      1210
+    ],
+    [
+      0,
+      294
+    ]
+  ],
+  "class_names": [
+    "benign",
+    "malignant"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.9873950361394558,
+  "precision": 0.9999417995576766,
+  "recall": 0.9005944206233554,
+  "dice": 0.9471159115933069,
+  "iou": 0.9006843149662018,
+  "dice_std": 0.025859516576187697,
+  "iou_std": 0.04642085683355175,
+  "confusion_matrix": [
+    [
+      1314496,
+      10
+    ],
+    [
+      18964,
+      171810
+    ]
+  ],
+  "model_name": "UNET Model",
+  "model_path": "checkpoints/unet_best.keras",
+  "num_test_samples": 30,
+  "has_ground_truth": true
+}

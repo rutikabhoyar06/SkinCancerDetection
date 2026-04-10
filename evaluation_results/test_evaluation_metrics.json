@@ -1,0 +1,29 @@
+{
+  "total_cases": 1471,
+  "correct_predictions": 919,
+  "accuracy": 0.6247450713800136,
+  "precision_weighted": 0.8099905948523921,
+  "recall_weighted": 0.6247450713800136,
+  "f1_weighted": 0.66716649432815,
+  "roc_auc": 0.7390903636442362,
+  "confusion_matrix": {
+    "true_negatives": 708,
+    "false_positives": 494,
+    "false_negatives": 58,
+    "true_positives": 211
+  },
+  "class_specific": {
+    "benign": {
+      "precision": 0.9242819843342036,
+      "recall": 0.589018302828619,
+      "f1_score": 0.7195121951219512,
+      "support": 1202
+    },
+    "malignant": {
+      "precision": 0.29929078014184396,
+      "recall": 0.7843866171003717,
+      "f1_score": 0.433264887063655,
+      "support": 269
+    }
+  }
+}
